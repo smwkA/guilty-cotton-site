@@ -53,18 +53,9 @@ h2 {
 }
 
 /* ヘッダー */
-header {
+.header-inner {
   background-color: #fdbfb0;
   line-height: 0;
-}
-
-header::after {
-  content: "";
-  position: absolute;
-  bottom: 1;
-  width: 100%;
-  height: 100px;
-  background-image: url(../img/wave.svg);
 }
 
 .hd-area {
